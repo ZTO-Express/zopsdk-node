@@ -4,8 +4,15 @@
 nodejs
 
 ## 使用方式
+```shell
+npm install zopsdk-node
+
+```
+
+
 ```javascript
-let zop_client = require("zopsdk-node");
+var zop_client = require("zopsdk-node");
+
 // int方法的两个参数companyid和key，都需要注册中通开放平台后到个人中心查看
 zop_client.init("kfpttestCode", "kfpttestkey==");
 let request_params = {};
