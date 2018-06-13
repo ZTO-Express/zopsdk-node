@@ -1,0 +1,34 @@
+{
+  "name": "zopsdk-node",
+  "version": "0.1",
+  "description": "node.js for zop.zto.com",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": "4.x || >=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZTO-Express/zopsdk-node.git"
+  },
+  "keywords": [
+    "zto","中通"
+  ],
+  "author": "ZTO",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/ZTO-Express/zopsdk-node/issues"
+  },
+  "homepage": "https://github.com/ZTO-Express/zopsdk-node",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "node-fetch":"^2.1.2",
+    "crypto": "^1.0.1",
+    "querystring": "^0.2.0"
+  }
+}
