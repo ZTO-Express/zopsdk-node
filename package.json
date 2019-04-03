@@ -1,6 +1,6 @@
 {
   "name": "zopsdk-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node.js for zop.zto.com",
   "main": "lib/index.js",
   "files": [
