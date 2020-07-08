@@ -2,8 +2,8 @@ let zop_client = require("../lib/index.js");
 zop_client.init("kfpttestCode", "kfpttestkey==");
 
 let request = {
-    url: "http://58.40.16.125:9001/submitOrderCode",
-    data: {
+    url: "https://japi-test.zto.com/submitOrderCode",
+    body:  {
         "data":{
             "content": {
                 "branchId": "",
